@@ -87,8 +87,7 @@ h1 ,p{
 .avatar {
     width: 180px;              
     height: 180px;
-    border-radius: 50%;         
-    background: radial-gradient(circle, #000000, #999); /* efeito degradê */
+    border-radius: 50%;          
     align-items: center;
     justify-content: center;
     font-weight: bold;
@@ -165,10 +164,12 @@ section h2{
 
 }
 
+.icons {
+    flex-direction: row;
+    padding: 100px 50px 100px;
+    border:1px solid #eeeeee94;
 
-
-
-
+}
 
 
 
