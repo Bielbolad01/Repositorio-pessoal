@@ -16,19 +16,10 @@ body {
     font-family: 'Roboto', sans-serif; ;
 
 }
-nav{
-    padding: 1px 30px;
-    margin: 2px 20px;
-    background-color: rgb(255, 255, 255);
-    
-
-}
 
 header p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    justify-content: left;
-    align-items: center;
     color: black;
     padding: 10px 15px;
 }
@@ -48,8 +39,6 @@ nav ul li a {
     text-decoration: none;
     color: #666;
     font-weight: 300; 
-    justify-content: right;
-    align-items: center;
     transition: color 0.3s;
     font-size: 18px;
     letter-spacing: 1.7px;
@@ -190,46 +179,46 @@ section h2{
 
 .card {
   background-color: #f7f7f7;
-  padding: 25px 20px;
+  padding: 20px 20px 30px;
   border-radius: 15px;
   box-shadow: 4px 12px rgba(0, 0, 0, 0.571);
   text-align: center;
   transition: all 0.3s ease;
   overflow: hidden;
-  height: 150px;
-  
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .card img{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: nao funciona;
+  align-items: Nao funciona;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;   
+  object-fit: cover;
+  margin-bottom: 7px;
 
 }
-
 
 .cardimg {
-    width: 80px;              
-    height: 80px;
-    border-radius: 0%;          
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: white;               
-    font-size: 24px;
- 
-    display: flex;
-}
-
-.card img {
-  justify-content: center;
+  width: 80px;              
+  height: 80px;
+  border-radius: 0%;          
   align-items: center;
-  
-}
+  justify-content: center;
+  font-weight: bold;
+  color: white;               
+  font-size: 24px;
 
+  display: flex;
+}
 
 .card:hover {
-  height: 250px; /* 🔹 aumenta altura */
+  height: 250px;
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
@@ -242,15 +231,15 @@ section h2{
 
 .card:hover .extra {
   opacity: 1;
-  max-height: 200px;
-  margin-top: 10px;
+  max-height: 250px;
+  margin-top: 5px;
 }
 
 
 .card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #111;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #000000;
 }
 
 .card p {
@@ -258,14 +247,12 @@ section h2{
   color: #555;
 }
 
-/* Container geral da seção */
 .container-sobre {
-  max-width: 1200px;
+  max-width: 1250px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 80px 30px 15px;
 }
 
-/* Título centralizado */
 .titulo-centralizado {
   text-align: center;
   font-size: 36px;
@@ -273,7 +260,6 @@ section h2{
   color: #333;
 }
 
-/* Área com texto + cards lado a lado */
 .conteudo-sobre {
   display: flex;
   justify-content: space-between;
@@ -281,28 +267,23 @@ section h2{
   flex-wrap: wrap;
 }
 
-/* Texto */
 .texto-sobre {
   flex: 1;
   min-width: 300px;
 }
 
-/* Cards */
 .cards-sobre {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  min-width: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 3fr));
+  gap: 15px;
+  min-width: 350px;
 }
 
-/* ... (resto dos estilos de .card que já passamos antes) */
-
-
-
-
-
-
+.Song{
+  width: 290px;
+  height: 65px;
+}
 
 
 
