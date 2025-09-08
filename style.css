@@ -181,7 +181,7 @@ section h2{
   background-color: #f7f7f7;
   padding: 20px 20px 30px;
   border-radius: 15px;
-  box-shadow: 4px 12px rgba(0, 0, 0, 0.571);
+  box-shadow: 6px 12px rgba(0, 0, 0, 0.571);
   text-align: center;
   transition: all 0.3s ease;
   overflow: hidden;
