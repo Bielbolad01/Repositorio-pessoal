@@ -59,7 +59,7 @@ a{
 }
 
 section{
-  height: calc(100vh - 80px);
+  min-height: 100vh;
   padding-top: 80px;
   display: flex;
   justify-content: center;
@@ -193,9 +193,6 @@ section h2{
 }
 
 .card img{
-  display: flex;
-  justify-content: nao funciona;
-  align-items: Nao funciona;
   width: 40px;
   height: 40px;
   border-radius: 30%;   
