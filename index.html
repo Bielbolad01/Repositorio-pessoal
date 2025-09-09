@@ -9,28 +9,10 @@
   <title>meu Portifolio Pessoal</title>
   <link rel="stylesheet" href="style.css">
   <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
 </head>
 <body>
-<!--      HEADER
--------------------------------------
-[ Biel - Desenvolvedor ]
-[ Sobre mim | Projetos | Contato ]
-MAIN
--------------------------------------
-SEÇÃO "Sobre mim"
-  -> Foto + descrição curta
-
-SEÇÃO "Projetos"
-  -> Lista de projetos com título, imagem e link
-
-SEÇÃO "Contato"
-  -> Formulário ou links de contato
-FOOTER
--------------------------------------
-© 2025 - Biel
-[ LinkedIn ] [ GitHub ] [ Email ]-->
 
 <!--    HEADER     -->
 <!--Navegador da pagina-->
@@ -42,6 +24,22 @@ FOOTER
         <li><a href="#Sobre mim">Sobre mim</a></li>
         <li><a href="#estudos">Estudos</a></li>
         <li><a href="#Contato">Contato</a></li>
+        <li>
+          <label class="switch">
+            <input id="darkmode-toggle" type="checkbox" />
+            <span class="slider">
+              <div class="star star_1"></div>
+              <div class="star star_2"></div>
+              <div class="star star_3"></div>
+              <svg viewBox="0 0 16 16" class="cloud_1 cloud">
+                <path
+                  transform="matrix(.77976 0 0 .78395-299.99-418.63)"
+                  fill="#fff"
+                  d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
+                ></path>
+              </svg>
+            </span>
+         </label>  
       </ul>
     </nav>
 </header>
@@ -65,11 +63,18 @@ FOOTER
     </span>
     <p style="color: #666; font-size: 16px;">Tenho paixão por programação e vejo no código uma forma de transformar ideias em soluções. <br> Gosto de encarar desafios, aprender novas tecnologias e evoluir a cada projeto. <br>Para mim, programar é unir lógica, criatividade e dedicação.</p>
       <div class="icons">
-    <img src="/Icons-linguagens/html.png" alt="Html icon">
-    <img src="/Icons-linguagens/css-3.png" alt="Css Icon">
-    <img src="/Icons-linguagens/python.png" alt="Python icon">
-    <img src="/Icons-linguagens/script-java.png" alt="JavaScript icon">
-    <img src="/Icons-linguagens/cpp.png" alt="CPP icon">
+    <img class="html light" src="/Icons-linguagens/html.png" alt="Html icon">
+    <img class="css light" src="/Icons-linguagens/css-3.png" alt="Css Icon">
+    <img class="Python light" src="/Icons-linguagens/python.png" alt="Python icon">
+    <img class="JS light" src="/Icons-linguagens/script-java.png" alt="JS icon">
+    <img class="CPP light" src="/Icons-linguagens/cpp.png" alt="CPP icon">
+
+    <!--Icons usada no Darkpage-->
+    <img class="html dark" src="/Icons-blackpage/htmlColor.png" alt="Html icon">
+    <img class="css dark" src="/Icons-blackpage/css-3Color.png" alt="Css Icon">
+    <img class="python dark" src="/Icons-blackpage/pythonColor.png" alt="Python icon">
+    <img class="js dark" src="/Icons-blackpage/jsColor.png" alt="JavaScript icon">
+    <img class="cpp dark" src="/Icons-blackpage/c-Color.png" alt="CPP icon">
        </div>
      </div>
   </div>
