@@ -282,6 +282,8 @@ section h2{
   height: 65px;
 }
 
+/*Botao de trocar cor da Page*/
+
 .switch {
   font-size: 17px;
   position: relative;
@@ -334,7 +336,7 @@ section h2{
 }
 
 .star {
-  background-color: #fff;
+  background-color: #f4fc05;
   border-radius: 50%;
   position: absolute;
   width: 5px;
@@ -373,6 +375,7 @@ section h2{
 .switch input:checked ~ .slider .cloud {
   opacity: 1;
 }
+/*Botao de trocar cor da Page*/
 
 
 
@@ -415,8 +418,7 @@ section h2{
 
 
 
-
-/* === DARK MODE === */
+/* === DARK PAGE === */
 body:has(#darkmode-toggle:checked) {
   background: #111;   /* fundo preto */
   color: #f5f5f5;     /* texto branco */
