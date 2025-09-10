@@ -194,10 +194,10 @@ section h2{
 
 .card img{
   width: 40px;
-  height: 40px;
-  border-radius: 30%;   
+  height: 80px;
+  border-radius: 20%;   
   object-fit: cover;
-  margin-bottom: 7px;
+  margin-bottom: 4px;
 
 }
 
@@ -377,9 +377,17 @@ section h2{
 }
 /*Botao de trocar cor da Page*/
 
+.duas-logos {
+  display: flex;
+  flex-direction: row;   
+  gap: 15px;               
+  justify-content: center;
+}
 
-
-
+.duas-logos img {
+  width: 25px;  
+  height: 20px;
+}
 
 
 
