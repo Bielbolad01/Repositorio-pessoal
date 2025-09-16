@@ -6,6 +6,7 @@
   <meta name="description" content="Portfólio pessoal de Biel, estudante de programação e tecnologia.">
   <meta name="keywords" content="Biel, programação, portfólio, desenvolvedor">
   <meta name="author" content="Gabriel de Moura Pereira">
+  <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
   <title>meu Portifolio Pessoal</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -149,39 +150,80 @@ Eu nao gosto de futbol, mas gosto de e-sports, que sao jogos onlines competitivo
   </div>
 </section>
 
-
-
-
-
 <!--Estudos, cursos que estou fazendo, cursos que fiz, certificados. colocar um botao pra
 "Abrir uma area escondida dentro de uma pagina so, para mostrar os meus certificados ate agora
 " lembrando que tem que ser tudo em uma pagina so, teria que ser uma parte escondida ou 
 fechada e ao clicar em um botao personalizado, ele abre com os certificados e da a opcao
 de baixar pra ver melhor.-->
-<section id="estudos">
-  <h2>Estudos</h2>
-  
+<section id="estudos" class="estudos-section">
+        <div class="container">
+            <h2 class="section-title">Estudos</h2>
+            <div class="estudos-grid">
+                
+                <div class="curso-card">
+                    <h3 class="curso-title">Curso em Vídeo</h3>
+                    <ul class="curso-list">
+                        <li class="finalizado">
+                            <span class="status-badge finalizado">Finalizado</span>
+                            HTML e CSS Módulo 1 (40 Horas)
+                        </li>
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            HTML e CSS Módulo 2 (40 Horas)
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="curso-card">
+                    <h3 class="curso-title">Senai & Campus 1</h3>
+                    <ul class="curso-list">
+                        <li class="finalizado">
+                            <span class="status-badge finalizado">Finalizado</span>
+                            Fundamentos de Python 1 (30 Horas)
+                        </li>
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            Inteligência Artificial Generativa (30 Horas)
+                        </li>
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            Implementação de serviços em Nuvem - Google Cloud (40 Horas)
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="curso-card">
+                    <h3 class="curso-title">Udemy</h3>
+                    <ul class="curso-list">
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            JavaScript do Básico ao Avançado
+                        </li>
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            Formação Node.JS
+                        </li>
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            NestJS para REST API com TypeORM, Autenticação JWT e Testes
+                        </li>
+                        <li class="cursando">
+                            <span class="status-badge cursando">Cursando</span>
+                            APIs RESTful com Node.JS, Express, TypeScript e Firebase
+                        </li>
+                    </ul>
+                </div>
 
-
-
-
-
-
-
-
-
-
-  
-</section>
+            </div>
+        </div>
+    </section>
 
 
 <!--Contato-->
 <section id="Contato">
   <div class="conteudo-centralizado">
-<h2>Contato</h2>
- <div class="social-buttons">
+  <h2>Contato</h2>
+  <div class="social-buttons">
         <!-- Instagram -->
         <a href="https://instagram.com/gabriel.moura1707" target="_blank" class="button-link">
             <button class="button instagram">
@@ -225,38 +267,5 @@ de baixar pra ver melhor.-->
     </div>
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 </body>
 </html>
