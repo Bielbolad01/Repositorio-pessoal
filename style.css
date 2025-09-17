@@ -24,7 +24,7 @@ header p{
   padding: 10px 15px;
 }
 header{
-    border-bottom: 2px solid rgba(115, 115, 115, 0.613);
+  border-bottom: 2px solid rgba(115, 115, 115, 0.613);
   height: 60px;
   padding: 10px 200px;
   background: #ffffff;
@@ -470,6 +470,7 @@ section h2{
   align-items: center;
   min-height: 100vh;
   padding: 40px 20px;
+  
 }
 
 .container {
