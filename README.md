@@ -1,0 +1,5 @@
+Projeto feito para a materia de Ambientes de Programação II, onde ela pediu para criar um portifolio pessoal, apenas em Html e CSS, e usando o que foi aprendido em sala de aula,
+porem eu acabei usando coisas um pouco a mais, como animações que achei na internet e adpetei pro meu codigo, tentei fazer algo um pouco mais profissional porem fazendo o que ela pediu,
+que era algumas cosias pessoais, como jogo favorito, hobbie, musica e essas coisas, tentei mesclar, e estou fazendo a um bom tempo esse projeto, fazendo ajustes, e corrigindo problemas e
+adicionando coisas novas. vou deixar umn link pro site tambem, caso queira apenas visualizar sem ter que baixar, nao sei por quanto tempo ficara no ar, mais ate então esta disponivel e atualizado, talvez eu realiza atualizações nesse projeto, como adptação de tela para dispositivos diferente, usando algo que estou estudando por fora em CSS que seria o @media, e concertar alguns bug que ficaram pra traz, que nao deu tempo de corrigir.
+Link: https://repositorio-pessoal-omega.vercel.app
